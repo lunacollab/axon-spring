@@ -1,8 +1,8 @@
-package com.tanthanh.userservice;
+package com.example.userservice;
 
 import com.google.gson.Gson;
-import com.tanthanh.userservice.data.User;
-import com.tanthanh.userservice.data.UserRepository;
+import com.example.userservice.data.User;
+import com.example.userservice.data.UserRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

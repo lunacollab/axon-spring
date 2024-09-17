@@ -1,9 +1,9 @@
-package com.tanthanh.userservice;
+package com.example.userservice;
 
-import com.tanthanh.userservice.data.User;
-import com.tanthanh.userservice.data.UserRepository;
-import com.tanthanh.userservice.model.UserDTO;
-import com.tanthanh.userservice.service.UserService;
+import com.example.userservice.data.User;
+import com.example.userservice.data.UserRepository;
+import com.example.userservice.model.UserDTO;
+import com.example.userservice.service.UserService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -83,7 +83,7 @@ public class UserDTO {
 	}
 
 	public static User dtoToEntity(UserDTO dto) {
-		User user = new User();
+		User user = new User(1L, "dev@gmail.com", "123456", "employeeID");
 		user.setId(dto.getId());
 		user.setPassword(dto.getPassword());
 		user.setUsername(dto.getUsername());

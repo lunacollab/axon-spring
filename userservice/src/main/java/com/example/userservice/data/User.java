@@ -17,7 +17,7 @@ public class User {
 	private String employeeId;
 
 	// Constructor không tham số
-	public User() {
+	public User(long l, String mail, String number, String employeeID) {
 	}
 
 	// Constructor có tham số
